@@ -4,7 +4,6 @@ use pinocchio::{
     ProgramResult,
     cpi::{Seed, Signer},
     error::ProgramError,
-    sysvars::{Sysvar, rent::Rent}
 };
 
 use crate::state::Escrow;
